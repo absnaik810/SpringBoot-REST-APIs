@@ -1,6 +1,6 @@
 # SpringBootApp [![Build Status](https://travis-ci.org/absnaik810/SpringBoot-REST-APIs.svg?branch=master)](https://travis-ci.org/absnaik810/SpringBoot-REST-APIs)
 
-Creating a REST API for Blog posts.  Features supported include:
+Creating REST APIs for Blog posts using Spring Boot.  Features supported include:
 * Searching for a blog;
 * Fetching all blogs;
 * Fetching a single blog;
