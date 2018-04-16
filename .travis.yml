@@ -1,0 +1,7 @@
+language: java
+sudo: true
+script:
+  - mvn -q test
+notifications:
+    on_success: change
+    on_failure: always
