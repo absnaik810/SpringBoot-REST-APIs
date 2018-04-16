@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Built-By: abhisheknaik
+Build-Jdk: 9.0.1
+Implementation-Title: SpringBootRESTAPI
+Implementation-Version: 1.0-SNAPSHOT
+Implementation-Vendor-Id: me.abhisheknaik
+Implementation-Vendor: Pivotal Software, Inc.
+Implementation-URL: http://projects.spring.io/spring-boot/SpringBootRE
+ STAPI/
+Created-By: Maven Integration for Eclipse
+
