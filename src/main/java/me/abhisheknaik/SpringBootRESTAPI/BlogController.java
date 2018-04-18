@@ -19,6 +19,7 @@ public class BlogController {
 	
 	@GetMapping("/blog")
 	public List<Blog> index() {
+		System.out.println("Executing...\n");
 		return blogRepository.findAll();
 	}
 	
