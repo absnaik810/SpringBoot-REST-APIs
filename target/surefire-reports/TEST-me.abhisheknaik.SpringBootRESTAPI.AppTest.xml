@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="me.abhisheknaik.SpringBootRESTAPI.AppTest" time="0.001" tests="1" errors="0" skipped="0" failures="0">
+<testsuite name="me.abhisheknaik.SpringBootRESTAPI.AppTest" time="0" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="9.0.1+11"/>
@@ -25,7 +25,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="os.name" value="Mac OS X"/>
-    <property name="classworlds.conf" value="/Users/abhisheknaik/eclipse-workspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf11632243498013730121.tmp"/>
+    <property name="classworlds.conf" value="/Users/abhisheknaik/eclipse-workspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf41806157747961798.tmp"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
     <property name="java.library.path" value="/Users/abhisheknaik/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
     <property name="jdk.debug" value="release"/>
@@ -60,5 +60,5 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16|127.0.0.1"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="testApp" classname="me.abhisheknaik.SpringBootRESTAPI.AppTest" time="0.001"/>
+  <testcase name="testApp" classname="me.abhisheknaik.SpringBootRESTAPI.AppTest" time="0"/>
 </testsuite>

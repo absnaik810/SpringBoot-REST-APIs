@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
@@ -17,9 +18,13 @@ public class BlogController {
 	@Autowired
 	BlogRepository blogRepository;
 	
+	@RequestMapping("/") 
+	public String baseIndex() { 
+		return "Ah, old link! Congratulations from BlogController.java"; 
+	}
+	
 	@GetMapping("/blog")
 	public List<Blog> index() {
-		System.out.println("Executing...\n");
 		return blogRepository.findAll();
 	}
 	
